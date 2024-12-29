@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            background-color: #f4f4f4;
+        }
+        .sidebar {
+            width: 250px;
+            background-color: #333;
+            color: white;
+            padding: 20px;
+        }
+        .main-content {
+            flex: 1;
+            padding: 20px;
+            background-color: white;
+        }
+        .sidebar h2, .main-content h2 {
+            color: #fff;
+        }
+        .sidebar p {
+            color: #ddd;
+            font-size: 14px;
+        }
+        .section-title {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .section-content {
+            margin-bottom: 20px;
+        }
+        .contact {
+            background-color: #444;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h2>John Doe</h2>
+        <p>Web Developer</p>
+        <div class="contact">
+            <p>Email: john@example.com</p>
+            <p>Phone: +123 456 7890</p>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="section-title">Experience</div>
+        <div class="section-content">
+            <h2>Web Developer - XYZ Company</h2>
+            <p>Jan 2020 - Present</p>
+            <p>Developing full-stack web applications using JavaScript and React.</p>
+        </div>
+
+        <div class="section-title">Education</div>
+        <div class="section-content">
+            <h2>Bachelor of Science in Computer Science</h2>
+            <p>ABC University, 2016 - 2020</p>
+        </div>
+
+        <div class="section-title">Skills</div>
+        <div class="section-content">
+            <ul>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
